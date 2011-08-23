@@ -259,6 +259,7 @@ public class JpegImagesToMovie implements ControllerListener, DataSinkListener {
 	}
 
 	public static void main(String args[]) {
+   //changed this method a bit
 
 		if (args.length == 0)
 			prUsage();
