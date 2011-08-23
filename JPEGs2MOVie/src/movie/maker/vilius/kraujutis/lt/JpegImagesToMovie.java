@@ -259,7 +259,7 @@ public class JpegImagesToMovie implements ControllerListener, DataSinkListener {
 	}
 
 	public static void main(String args[]) {
-   //changed this method a bit
+		// changed this method a bit
 
 		if (args.length == 0)
 			prUsage();
@@ -309,7 +309,8 @@ public class JpegImagesToMovie implements ControllerListener, DataSinkListener {
 		}
 
 		if (rootDir == null) {
-			System.out.println("Since no input (-i) forder provided, assuming this JAR is inside JPEGs folder.");
+			System.out
+					.println("Since no input (-i) forder provided, assuming this JAR is inside JPEGs folder.");
 			rootDir = (new File(".")).getAbsolutePath();
 		}
 		inputFiles = getImageFilesPathsVector(rootDir);
