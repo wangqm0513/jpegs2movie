@@ -1,6 +1,5 @@
 package movie.maker.vilius.kraujutis.lt;
 
-
 /*
  * @(#)JpegImagesToMovie.java   1.3 01/03/13
  *
